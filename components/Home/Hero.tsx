@@ -5,7 +5,7 @@ function Hero() {
     <div className="">
       <div className="w-screen min-h-[85vh] relative flex flex-col md:flex-row-reverse bg-primary">
         <div className="w-[100%] md:w-[50%] flex justify-center items-center">
-          <video className="h-[400px] w-[80%] object-" autoPlay muted loop>
+          <video className="h-[400px] w-[80%]" autoPlay muted loop>
             <source
               src="https://staging.api.moviemint.net/uploads/video/admin/video1.mp4"
               type="video/mp4"
@@ -21,7 +21,7 @@ function Hero() {
               MovieMint liberates Filmmakers and fans through decentralized
               funding. Our Blockchain platform seamlessly connects Independent
               Creators and Passionate Supporters. Filmmakers tokenize projects
-              into NFT "movie shares" that fans can buy and tradel. This raises
+              into NFT movie shares that fans can buy and tradel. This raises
               production funds while retaining full ownership and creative
               control while fans.
             </h4>
