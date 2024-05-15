@@ -1,5 +1,3 @@
-import React from "react";
-
 function Hero() {
   return (
     <div className="">
@@ -25,14 +23,12 @@ function Hero() {
               production funds while retaining full ownership and creative
               control while fans.
             </h4>
-            <div>
-              <button
-                className="px-8 py-2 bg-[#808080] hover:bg-gray-500 text-white txt-[18px] font-[600]
-            duration-300 ease-in-out transition-all"
-              >
-                Explore Projects
-              </button>
-            </div>
+        <button
+          className="px-8 py-2 bg-[#808080] hover:bg-gray-500 text-white txt-[18px] font-[600]
+        duration-300 ease-in-out transition-all"
+        >
+         Explore
+        </button>
           </div>
         </div>
       </div>
