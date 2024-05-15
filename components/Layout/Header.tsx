@@ -41,17 +41,17 @@ export default function Header() {
       <div className=" h-full w-full  max-w-[1340px] flex items-center justify-between">
         <div className="text-white font-[700]">LOGO</div>
         {/* Navigation Bar */}
-        <div className=" items-center  hidden lg:flex h-full">
+        <div className=" items-center hidden lg:flex h-full">
           {navLinks.map((item: any, index: any) => (
             <div
               key={index}
               className="relative group h-full flex items-center cursor-pointer"
             >
-              <div className="h-2 w-full scale-0  group-hover:scale-105 duration-300 rounded-b-full absolute bg-secondary top-0"></div>
+              <div className="h-2 w-full scale-0 group-hover:scale-105 duration-300 rounded-b-full absolute bg-secondary top-0"></div>
 
               <a
                 href={item.link}
-                className="text-white text-[16px]  px-5 relative "
+                className="text-white text-[16px] px-5 relative "
               >
                 {item.name}
               </a>
@@ -59,7 +59,7 @@ export default function Header() {
           ))}
         </div>
         <div
-          className="py-2 px-5  hidden lg:flex items-center justify-center 
+          className="py-2 px-5 hidden lg:flex items-center justify-center 
         text-white rounded-full text-[16px] bg-secondary cursor-pointer"
         >
           Connect

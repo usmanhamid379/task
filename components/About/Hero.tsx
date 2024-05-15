@@ -2,8 +2,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="">
-      <div className="w-screen min-h-[80vh] md:min-h-[55vh] relative flex bg-primary">
+    <div className="w-screen min-h-[80vh] md:min-h-[55vh] relative flex items-center bg-primary">
+      <div className="max-w-7xl mx-auto">
         <div className="w-[100%] text-white px-4 space-y-4 flex justify-center items-center">
           <div className="py-4 w-[80%] space-y-4 ">
             <h1 className="text-[32px] md:text-[38px] font-[700]">About Us</h1>
